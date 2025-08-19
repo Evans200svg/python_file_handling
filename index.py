@@ -10,7 +10,7 @@ def main():
 		print(f"Error: Could not read file '{filename}'.")
 		return
 
-	# Modify the content (convert to uppercase)
+	# Modify the content to uppercase
 	modified_content = content.upper()
 	new_filename = f"modified_{filename}"
 	try:
